@@ -154,6 +154,7 @@
         }
 
         .gallery-placeholder {
+            
             padding: 3rem 2rem;
             text-align: center;
             height: 100%;
@@ -162,7 +163,30 @@
             justify-content: center;
             align-items: center;
         }
-
+        .frontal{
+            background-image: url('img/Vista_Frontal.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .lateral{
+            background-image: url('img/Vista_Lateral.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .teclado{
+            background-image: url('img/Teclado.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .puertos{
+            background-image: url('img/Puertos_Mac.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
         .gallery-placeholder-icon {
             font-size: 3rem;
             margin-bottom: 1rem;
